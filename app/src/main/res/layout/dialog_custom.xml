@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="320dp"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btCall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/boder"
+        android:textColor="@android:color/holo_blue_dark"
+        android:drawableLeft="@drawable/ic_phone_black_24dp"
+        android:text="call" />
+
+    <Button
+        android:id="@+id/btMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/boder"
+        android:textColor="@android:color/holo_blue_dark"
+        android:drawableLeft="@drawable/ic_message_black_24dp"
+        android:text="message" />
+</LinearLayout>

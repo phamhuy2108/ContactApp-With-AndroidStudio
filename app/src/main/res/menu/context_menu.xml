@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item android:title="Message"-->
+<!--        android:icon="@drawable/ic_update_black_24dp"-->
+<!--        android:id="@+id/mnu_message"/>-->
+    <item android:title="Update"
+        android:icon="@drawable/ic_update_black_24dp"
+        android:id="@+id/mnu_update"/>
+    <item android:title="Delete"
+        android:id="@+id/mnu_delete"/>
+</menu>
